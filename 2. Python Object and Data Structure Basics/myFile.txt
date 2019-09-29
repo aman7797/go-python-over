@@ -1,0 +1,4 @@
+IO basic Text File
+This is first line
+This is second lineThis is third line
+This is forth line

@@ -1,0 +1,3 @@
+IO basic Text File
+This is python script
+to create and write in a file
