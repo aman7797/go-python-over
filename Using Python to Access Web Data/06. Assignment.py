@@ -1,10 +1,21 @@
 if __name__ == '__main__':
-    n = int(input())
-    student_marks = {}
-    for _ in range(n):
-        name, *line = input().split()
-        scores = list(map(float, line))
-        student_marks[name] = scores
-    query_name = input()
-    average = "{:.2f}".format(sum(student_marks[query_name])/3)
-    print(average)
+    N = int(input())
+    output_list = []
+    for _ in range(N):
+        operation, *value = input().split()
+        print(operation)
+        print(value)
+        if operation == 'insert':
+            output_list.insert(int(value[0]), int(value[1]))
+        if operation == 'print':
+            print(output_list)
+        if operation == 'remove':
+            output_list.remove(int(value[0]))
+        if operation == 'append':
+            output_list.append(int(value[0]))
+        if operation == 'sort':
+            output_list.sort()
+        if operation == 'pop':
+            output_list.pop()
+        if operation == 'reverse':
+            output_list.reverse()
