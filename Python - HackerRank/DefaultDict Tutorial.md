@@ -14,7 +14,7 @@ This prints:
 
 ('python', ['awesome', 'language'])
 ('something-else', ['not relevant'])
-In this challenge, you will be given  integers,  and . There are  words, which might repeat, in word group . There are  words belonging to word group . For each  words, check whether the word has appeared in group  or not. Print the indices of each occurrence of  in group . If it does not appear, print .
+In this challenge, you will be given 2 integers, n and m. There are n words, which might repeat, in word group . There are  words belonging to word group B. For each  words, check whether the word has appeared in group  or not. Print the indices of each occurrence of  in group . If it does not appear, print .
 
 ## Constraints
 
